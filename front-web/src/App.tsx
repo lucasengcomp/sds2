@@ -1,16 +1,11 @@
-import { useEffect } from 'react';
 import './App.css';
-import './Hello';
+import Navbar from './Navbar';
 
 function App() {
 
-  useEffect(() => {
-    
-  }, []);
-
   return (
     <div className="App">
-      <h1>Hello :)</h1>
+      <Navbar  />
     </div>
   );
 }

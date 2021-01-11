@@ -1,12 +1,12 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from './Home';
-import Navbar from "./Navbar";
-import Orders from './Orders';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Home from './Home'
+import Orders from './Orders'
+import Navbar from './Navbar'
 
 function Routes() {
     return (
         <BrowserRouter>
-        <Navbar />
+            <Navbar />
             <Switch>
                 <Route path="/orders">
                     <Orders />
